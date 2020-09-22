@@ -139,7 +139,7 @@ class Game {
                 // MARK: - Choose the Target Character:
                 targetCharacter = targetTeam.choiceOfOneTeamCharactercontext(context: "ATTAQUÉE")
             } // end of : if attackingCharacter.role.roleName != constants.HEALER_ROLE {
-            
+            print("cooucou")
             // in Case of healer choice, we have to go to a special treatment.
             if targetCharacter.role.roleName == constants.HEALER_ROLE {
                 // case of Healer, we have to go to his special treatment
